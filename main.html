@@ -1,0 +1,2205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoLo</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+        </div>
+        <svg
+          viewBox="0 -0.5 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="stroked"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.5 10.7655C5.50003 8.01511 7.44296 5.64777 10.1405 5.1113C12.8381 4.57483 15.539 6.01866 16.5913 8.55977C17.6437 11.1009 16.7544 14.0315 14.4674 15.5593C12.1804 17.0871 9.13257 16.7866 7.188 14.8415C6.10716 13.7604 5.49998 12.2942 5.5 10.7655Z"
+            stroke="#556178"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            class="stroked"
+            d="M17.029 16.5295L19.5 19.0005"
+            stroke="#556178"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          viewBox="0 -0.5 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="stroked"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M11.5 7C11.5 8.10457 10.6046 9 9.5 9C8.39543 9 7.5 8.10457 7.5 7C7.5 5.89543 8.39543 5 9.5 5C10.6046 5 11.5 5.89543 11.5 7Z"
+            stroke="#556178"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            class="stroked"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.5 15.5C14.5 17.433 12.261 19 9.5 19C6.739 19 4.5 17.433 4.5 15.5C4.5 13.567 6.739 12 9.5 12C12.261 12 14.5 13.567 14.5 15.5Z"
+            stroke="#556178"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            class="filled"
+            d="M19.25 5C19.25 4.58579 18.9142 4.25 18.5 4.25C18.0858 4.25 17.75 4.58579 17.75 5H19.25ZM17.75 7C17.75 7.41421 18.0858 7.75 18.5 7.75C18.9142 7.75 19.25 7.41421 19.25 7H17.75ZM19.25 7C19.25 6.58579 18.9142 6.25 18.5 6.25C18.0858 6.25 17.75 6.58579 17.75 7H19.25ZM17.75 9C17.75 9.41421 18.0858 9.75 18.5 9.75C18.9142 9.75 19.25 9.41421 19.25 9H17.75ZM18.5 7.75C18.9142 7.75 19.25 7.41421 19.25 7C19.25 6.58579 18.9142 6.25 18.5 6.25V7.75ZM16.5 6.25C16.0858 6.25 15.75 6.58579 15.75 7C15.75 7.41421 16.0858 7.75 16.5 7.75V6.25ZM18.5 6.25C18.0858 6.25 17.75 6.58579 17.75 7C17.75 7.41421 18.0858 7.75 18.5 7.75V6.25ZM20.5 7.75C20.9142 7.75 21.25 7.41421 21.25 7C21.25 6.58579 20.9142 6.25 20.5 6.25V7.75ZM17.75 5V7H19.25V5H17.75ZM17.75 7V9H19.25V7H17.75ZM18.5 6.25H16.5V7.75H18.5V6.25ZM18.5 7.75H20.5V6.25H18.5V7.75Z"
+            fill="#556178"
+          />
+        </svg>
+
+        <p>Amir Mahdi</p>
+        <img src="/img/03.jpg" alt="" ">
+        <div class="seprator">|</div>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            class="filled"
+            d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM17 17.47C15.29 17.47 13.69 16.73 12.41 15.36C10.96 16.67 9.07 17.47 7 17.47C6.59 17.47 6.25 17.13 6.25 16.72C6.25 16.31 6.59 15.97 7 15.97C10.47 15.97 13.34 13.22 13.71 9.7H12H7.01C6.6 9.7 6.26 9.36 6.26 8.95C6.26 8.54 6.6 8.21 7.01 8.21H11.25V7.28C11.25 6.87 11.59 6.53 12 6.53C12.41 6.53 12.75 6.87 12.75 7.28V8.21H14.44C14.46 8.21 14.48 8.2 14.5 8.2C14.52 8.2 14.54 8.21 14.56 8.21H16.99C17.4 8.21 17.74 8.55 17.74 8.96C17.74 9.37 17.4 9.71 16.99 9.71H15.21C15.06 11.42 14.42 12.99 13.44 14.27C14.44 15.38 15.69 15.98 17 15.98C17.41 15.98 17.75 16.32 17.75 16.73C17.75 17.14 17.41 17.47 17 17.47Z"
+            fill="#556178"
+          />
+        </svg>
+      </header>
+      <aside class="aside">
+        <div class="sidebar-items">
+          <svg
+            class="svg-logo"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 512.001 512.001"
+            xml:space="preserve"
+          >
+            <path
+              style="fill: #7c54b8"
+              d="M407.771,429.724H104.229L71.177,30.373C70.218,18.778,78.55,8.784,89.173,8.784h333.653
+	c10.624,0,18.955,9.995,17.996,21.589L407.771,429.724z"
+            />
+            <path
+              style="fill: #fc4c59"
+              d="M460.542,429.724H51.458c-10.407,0-18.843,8.436-18.843,18.843v35.808
+	c0,10.407,8.436,18.843,18.843,18.843h409.083c10.407,0,18.843-8.436,18.843-18.843v-35.808
+	C479.384,438.159,470.948,429.724,460.542,429.724z"
+            />
+            <path
+              style="fill: #e83a64"
+              d="M460.542,429.724H428.92c10.407,0,18.843,8.436,18.843,18.843v35.808
+	c0,10.407-8.436,18.843-18.843,18.843h31.621c10.407,0,18.843-8.436,18.843-18.843v-35.808
+	C479.384,438.159,470.948,429.724,460.542,429.724z"
+            />
+            <path
+              style="fill: #674799"
+              d="M422.827,8.784h-54.954c6.382,25.477,9.789,52.134,9.789,79.59
+	c0,162.797-119.148,297.749-274.996,322.453l1.563,18.896h303.543l33.051-399.351C441.782,18.778,433.45,8.784,422.827,8.784z"
+            />
+            <polygon
+              style="fill: #ffdb6c"
+              points="413.854,356.23 98.147,356.23 104.229,429.724 407.771,429.724 "
+            />
+            <path
+              style="fill: #ffb966"
+              d="M237.86,356.23c-39.557,27.622-85.505,46.721-135.196,54.597l1.563,18.896H407.77l6.082-73.494
+	H237.86V356.23z"
+            />
+            <g>
+              <circle
+                style="fill: #ffdb6c"
+                cx="71.102"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="108.098"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="145.095"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="182.08"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="219.077"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="256.074"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="330.057"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="293.071"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="367.054"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="441.048"
+                cy="466.473"
+                r="8.784"
+              />
+              <circle
+                style="fill: #ffdb6c"
+                cx="404.051"
+                cy="466.473"
+                r="8.784"
+              />
+            </g>
+            <path
+              d="M460.543,420.94h-43.23l32.263-389.842c0.69-8.342-2.069-16.554-7.572-22.531C436.918,3.043,430.108,0,422.827,0H89.173
+	c-7.281,0-14.091,3.043-19.178,8.567c-5.502,5.976-8.263,14.189-7.572,22.531L94.687,420.94H51.458
+	c-15.233,0-27.627,12.393-27.627,27.626v35.808c0,15.233,12.393,27.626,27.627,27.626h409.084c15.233,0,27.626-12.393,27.626-27.626
+	v-35.808C488.168,433.333,475.775,420.94,460.543,420.94z M82.921,20.466c1.72-1.869,3.941-2.899,6.253-2.899h333.653
+	c2.312,0,4.534,1.029,6.254,2.899c2.185,2.374,3.275,5.721,2.988,9.183l-26.301,317.798H157.771c-4.851,0-8.784,3.933-8.784,8.784
+	s3.933,8.784,8.784,8.784h246.542l-4.628,55.926H112.316l-5.415-65.435c0-0.002-0.001-0.006-0.001-0.008L79.932,29.648
+	C79.646,26.186,80.734,22.839,82.921,20.466z M470.601,484.374c0,5.547-4.512,10.059-10.059,10.059H51.458
+	c-5.547,0-10.059-4.512-10.059-10.059v-35.807c0-5.547,4.512-10.059,10.059-10.059h52.77h303.544h52.77
+	c5.547,0,10.059,4.512,10.059,10.059v35.807H470.601z"
+            />
+            <circle cx="71.102" cy="466.473" r="8.784" />
+            <circle cx="108.098" cy="466.473" r="8.784" />
+            <circle cx="145.095" cy="466.473" r="8.784" />
+            <circle cx="182.08" cy="466.473" r="8.784" />
+            <circle cx="219.077" cy="466.473" r="8.784" />
+            <circle cx="256.074" cy="466.473" r="8.784" />
+            <circle cx="330.057" cy="466.473" r="8.784" />
+            <circle cx="293.071" cy="466.473" r="8.784" />
+            <circle cx="367.054" cy="466.473" r="8.784" />
+            <circle cx="441.048" cy="466.473" r="8.784" />
+            <circle cx="404.051" cy="466.473" r="8.784" />
+            <path
+              style="fill: #ffdb6c"
+              d="M263.252,112.451l18.899,38.295l42.26,6.142c6.633,0.964,9.281,9.115,4.482,13.794l-30.58,29.808
+	l7.219,42.089c1.133,6.607-5.801,11.644-11.734,8.525l-37.799-19.872L218.2,251.104c-5.933,3.119-12.866-1.918-11.734-8.525
+	l7.219-42.089l-30.58-29.808c-4.799-4.679-2.151-12.83,4.482-13.794l42.26-6.14l18.899-38.295
+	C251.715,106.441,260.286,106.441,263.252,112.451z"
+            />
+            <path
+              d="M204.248,203.556l-6.438,37.538c-1.094,6.376,1.478,12.698,6.711,16.5c5.233,3.803,12.042,4.295,17.767,1.285l33.712-17.724
+	l33.712,17.724c2.49,1.309,5.185,1.956,7.867,1.956c3.483,0,6.944-1.092,9.901-3.241c5.234-3.803,7.806-10.125,6.711-16.499
+	l-6.438-37.538l27.274-26.585c4.632-4.515,6.268-11.142,4.269-17.295s-7.218-10.552-13.618-11.482l-37.69-5.476l-16.857-34.153l0,0
+	c-2.862-5.802-8.66-9.404-15.128-9.404c-6.468,0-12.266,3.604-15.128,9.404l-16.857,34.153l-37.69,5.476
+	c-6.402,0.93-11.62,5.33-13.618,11.482c-1.999,6.152-0.364,12.779,4.269,17.295L204.248,203.556z M231.112,159.438
+	c2.861-0.416,5.333-2.212,6.614-4.805l18.275-37.029l18.275,37.029c1.28,2.592,3.752,4.39,6.614,4.805l40.864,5.938l-29.569,28.822
+	c-2.071,2.018-3.016,4.926-2.526,7.774l6.98,40.698l-36.55-19.215c-1.28-0.672-2.684-1.008-4.087-1.008
+	c-1.403,0-2.807,0.336-4.087,1.008l-36.55,19.215l6.98-40.698c0.488-2.849-0.456-5.756-2.526-7.774l-29.569-28.822L231.112,159.438z
+	"
+            />
+          </svg>
+          <h2 class="logo-name">GoLo</h2>
+          <button class="toggle-btn">
+            <span
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="stroked"
+                  d="M4 7L7 7M20 7L11 7"
+                  stroke="#1C274C"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  class="stroked"
+                  d="M20 17H17M4 17L13 17"
+                  stroke="#1C274C"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  class="stroked"
+                  d="M4 12H7L20 12"
+                  stroke="#1C274C"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                /></svg
+            ></span>
+          </button>
+        </div>
+        <div class="sidebar-items">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="stroked"
+              d="M22 12.2039V13.725C22 17.6258 22 19.5763 20.8284 20.7881C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.7881C2 19.5763 2 17.6258 2 13.725V12.2039C2 9.91549 2 8.77128 2.5192 7.82274C3.0384 6.87421 3.98695 6.28551 5.88403 5.10813L7.88403 3.86687C9.88939 2.62229 10.8921 2 12 2C13.1079 2 14.1106 2.62229 16.116 3.86687L18.116 5.10812C20.0131 6.28551 20.9616 6.87421 21.4808 7.82274"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              class="stroked"
+              d="M15 18H9"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+          <h4>Home</h4>
+        </div>
+        <div class="sidebar-items">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_15_159)">
+              <rect width="24" height="24" fill="none" />
+              <path
+                class="stroked"
+                d="M9.5 19C8.89555 19 7.01237 19 5.61714 19C4.87375 19 4.39116 18.2177 4.72361 17.5528L5.57771 15.8446C5.85542 15.2892 6 14.6774 6 14.0564C6 13.2867 6 12.1434 6 11C6 9 7 5 12 5C17 5 18 9 18 11C18 12.1434 18 13.2867 18 14.0564C18 14.6774 18.1446 15.2892 18.4223 15.8446L19.2764 17.5528C19.6088 18.2177 19.1253 19 18.382 19H14.5M9.5 19C9.5 21 10.5 22 12 22C13.5 22 14.5 21 14.5 19M9.5 19C11.0621 19 14.5 19 14.5 19"
+                stroke="#6C737B"
+                stroke-linejoin="round"
+              />
+              <path
+                class="stroked"
+                d="M12 5V3"
+                stroke="#6C737B"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_15_159">
+                <rect width="24" height="24" fill="none" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h4>Inbox</h4>
+        </div>
+        <div class="sidebar-items">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="stroked"
+              d="M11 19.5H21"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              class="stroked"
+              d="M11 12.5H21"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              class="stroked"
+              d="M11 5.5H21"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              class="stroked"
+              d="M3 5.5L4 6.5L7 3.5"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              class="stroked"
+              d="M3 12.5L4 13.5L7 10.5"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              class="stroked"
+              d="M3 19.5L4 20.5L7 17.5"
+              stroke="#6C737B"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <h4>Team task</h4>
+        </div>
+        <div class="sidebar-items">
+          <svg
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+          >
+            <path
+              class="filled"
+              fill="#6C737B"
+              d="M824.2 699.9a301.55 301.55 0 0 0-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 0 0-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 0 0 8 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 0 1 612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 0 0 8-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 0 1-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 0 1 612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 0 1-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 0 0 8 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z"
+            />
+          </svg>
+          <h4>My team</h4>
+        </div>
+        <div class="sidebar-items">
+          <svg
+            viewBox="0 -0.5 25 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="filled"
+              d="M7 12.5538H6.25C6.25 12.5713 6.25061 12.5888 6.25183 12.6062L7 12.5538ZM7.782 13.2398V12.4898C7.76683 12.4898 7.75167 12.4903 7.73653 12.4912L7.782 13.2398ZM17.217 13.2398L17.3055 12.4951C17.2761 12.4916 17.2466 12.4898 17.217 12.4898V13.2398ZM17.8805 12.9231L18.5153 13.3225V13.3225L17.8805 12.9231ZM17.879 12.1878L18.5121 11.7858C18.5046 11.7739 18.4967 11.7622 18.4885 11.7508L17.879 12.1878ZM15.943 9.48782L16.5526 9.05075L16.5467 9.04282L15.943 9.48782ZM15.943 8.75682L16.5468 9.20187L16.5525 9.19386L15.943 8.75682ZM17.879 6.05682L18.4885 6.49386C18.4967 6.48242 18.5046 6.47075 18.5121 6.45887L17.879 6.05682ZM17.8805 5.32159L18.5153 4.92214L18.5153 4.92214L17.8805 5.32159ZM17.217 5.00482V5.75482C17.2466 5.75482 17.2761 5.75307 17.3055 5.74958L17.217 5.00482ZM7.782 5.00482L7.73653 5.75344C7.75167 5.75436 7.76683 5.75482 7.782 5.75482V5.00482ZM7 5.69082L6.25183 5.63841C6.25061 5.65586 6.25 5.67334 6.25 5.69082H7ZM7.75 12.5538C7.75 12.1396 7.41421 11.8038 7 11.8038C6.58579 11.8038 6.25 12.1396 6.25 12.5538H7.75ZM6.25 19.0048C6.25 19.419 6.58579 19.7548 7 19.7548C7.41421 19.7548 7.75 19.419 7.75 19.0048H6.25ZM6.25183 12.6062C6.30892 13.4212 7.01201 14.038 7.82747 13.9884L7.73653 12.4912C7.73632 12.4912 7.73688 12.4912 7.73797 12.4913C7.73901 12.4915 7.74008 12.4917 7.74107 12.4921C7.74295 12.4927 7.74396 12.4935 7.74445 12.4939C7.74494 12.4943 7.74581 12.4952 7.7467 12.497C7.74718 12.498 7.74758 12.499 7.74786 12.5C7.74815 12.5011 7.74818 12.5016 7.74817 12.5014L6.25183 12.6062ZM7.782 13.9898H17.217V12.4898H7.782V13.9898ZM17.1285 13.9846C17.6798 14.0501 18.2196 13.7924 18.5153 13.3225L17.2457 12.5236C17.2585 12.5034 17.2818 12.4922 17.3055 12.4951L17.1285 13.9846ZM18.5153 13.3225C18.811 12.8526 18.8098 12.2545 18.5121 11.7858L17.2459 12.5899C17.233 12.5697 17.233 12.5439 17.2457 12.5236L18.5153 13.3225ZM18.4885 11.7508L16.5525 9.05079L15.3335 9.92486L17.2695 12.6249L18.4885 11.7508ZM16.5467 9.04282C16.5816 9.09009 16.5816 9.15455 16.5467 9.20183L15.3393 8.31182C14.984 8.79376 14.984 9.45088 15.3393 9.93283L16.5467 9.04282ZM16.5525 9.19386L18.4885 6.49386L17.2695 5.61979L15.3335 8.31979L16.5525 9.19386ZM18.5121 6.45887C18.8098 5.99018 18.811 5.39204 18.5153 4.92214L17.2457 5.72104C17.233 5.70078 17.233 5.67499 17.2459 5.65478L18.5121 6.45887ZM18.5153 4.92214C18.2196 4.45224 17.6798 4.19454 17.1285 4.26007L17.3055 5.74958C17.2818 5.75241 17.2585 5.7413 17.2457 5.72104L18.5153 4.92214ZM17.217 4.25482H7.782V5.75482H17.217V4.25482ZM7.82747 4.2562C7.01201 4.20667 6.30892 4.82344 6.25183 5.63841L7.74817 5.74323C7.74818 5.74303 7.74815 5.74359 7.74786 5.74465C7.74758 5.74566 7.74718 5.74669 7.7467 5.74762C7.74581 5.7494 7.74494 5.7503 7.74445 5.75073C7.74396 5.75116 7.74295 5.75191 7.74107 5.75257C7.74008 5.75291 7.73901 5.75317 7.73797 5.75332C7.73688 5.75347 7.73632 5.75343 7.73653 5.75344L7.82747 4.2562ZM6.25 5.69082V12.5538H7.75V5.69082H6.25ZM6.25 12.5538V16.2987H7.75V12.5538H6.25ZM6.25 16.2987V19.0048H7.75V16.2987H6.25Z"
+              fill="#6C737B"
+            />
+          </svg>
+          <h4>Reporting</h4>
+        </div>
+        <div class="bottom-items">
+          <div class="sidebar-items">
+            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+              <path
+                class="filled"
+                fill="#6C737B"
+                d="M512 277.333c-58.974 0-106.667 47.693-106.667 106.667 0 11.782-9.551 21.333-21.333 21.333s-21.333-9.551-21.333-21.333c0-82.538 66.795-149.333 149.333-149.333S661.333 301.463 661.333 384c0 75.294-55.586 137.489-128 147.823V640c0 11.78-9.553 21.333-21.333 21.333S490.667 651.78 490.667 640V512c0-11.78 9.553-21.333 21.333-21.333 58.974 0 106.667-47.693 106.667-106.667S570.974 277.333 512 277.333zm0 506.454c23.565 0 42.667-19.102 42.667-42.667S535.565 698.453 512 698.453s-42.667 19.102-42.667 42.667 19.102 42.667 42.667 42.667z"
+              />
+              <path
+                class="filled"
+                fill="#6C737B"
+                d="M512 85.333C276.358 85.333 85.333 276.358 85.333 512c0 235.639 191.025 426.667 426.667 426.667 235.639 0 426.667-191.027 426.667-426.667C938.667 276.358 747.64 85.333 512 85.333zM128 512c0-212.077 171.923-384 384-384 212.079 0 384 171.923 384 384 0 212.079-171.921 384-384 384-212.077 0-384-171.921-384-384z"
+              />
+            </svg>
+            <h4>Get help?</h4>
+          </div>
+          <div class="sidebar-items">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="stroked"
+                d="M3 9.11011V14.8801C3 17.0001 3 17.0001 5 18.3501L10.5 21.5301C11.33 22.0101 12.68 22.0101 13.5 21.5301L19 18.3501C21 17.0001 21 17.0001 21 14.8901V9.11011C21 7.00011 21 7.00011 19 5.65011L13.5 2.47011C12.68 1.99011 11.33 1.99011 10.5 2.47011L5 5.65011C3 7.00011 3 7.00011 3 9.11011Z"
+                stroke="#6C737B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                class="stroked"
+                d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                stroke="#6C737B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h4>Setting</h4>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="task-header">
+          <h1>Team task</h1>
+        </div>
+        <div class="func-header">
+          <div class="week-func">
+            <div id="funcdate" class="dateoption">
+              <select id="funcdateelemnt" name="Date">
+                <option value="date" selected>Date</option>
+                <option value="day">Day</option>
+                <option value="week">Week</option>
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+              </select>
+            </div>
+
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Enter date:</h3>
+                <input type="date" id="dateInput" style="display: none" />
+              </div>
+            </div>
+            <div>
+              <button><</button>
+              <button>July 15 <span class="arrow">→</span> July 21</button>
+              <button>></button>
+            </div>
+          </div>
+          <div class="task-func">
+            <button>All task</button>
+            <button>Assigned to me</button>
+            <button>Table</button>
+            <button>Calendar</button>
+            <button>...</button>
+          </div>
+          <div class="filter-func">
+            <div class="filter-div">
+              <svg
+                width="25px"
+                height="25px"
+                viewBox="0 -0.5 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="stroked"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.30524 15.7137C6.4404 14.8306 5.85381 13.7131 5.61824 12.4997C5.38072 11.2829 5.50269 10.0233 5.96924 8.87469C6.43181 7.73253 7.22153 6.75251 8.23924 6.05769C10.3041 4.64744 13.0224 4.64744 15.0872 6.05769C16.105 6.75251 16.8947 7.73253 17.3572 8.87469C17.8238 10.0233 17.9458 11.2829 17.7082 12.4997C17.4727 13.7131 16.8861 14.8306 16.0212 15.7137C14.8759 16.889 13.3044 17.5519 11.6632 17.5519C10.0221 17.5519 8.45059 16.889 7.30524 15.7137V15.7137Z"
+                  stroke="#000000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  class="stroked"
+                  d="M11.6702 7.20292C11.2583 7.24656 10.9598 7.61586 11.0034 8.02777C11.0471 8.43968 11.4164 8.73821 11.8283 8.69457L11.6702 7.20292ZM13.5216 9.69213C13.6831 10.0736 14.1232 10.2519 14.5047 10.0904C14.8861 9.92892 15.0644 9.4888 14.9029 9.10736L13.5216 9.69213ZM16.6421 15.0869C16.349 14.7943 15.8741 14.7947 15.5815 15.0879C15.2888 15.381 15.2893 15.8559 15.5824 16.1485L16.6421 15.0869ZM18.9704 19.5305C19.2636 19.8232 19.7384 19.8228 20.0311 19.5296C20.3237 19.2364 20.3233 18.7616 20.0301 18.4689L18.9704 19.5305ZM11.8283 8.69457C12.5508 8.61801 13.2384 9.02306 13.5216 9.69213L14.9029 9.10736C14.3622 7.83005 13.0496 7.05676 11.6702 7.20292L11.8283 8.69457ZM15.5824 16.1485L18.9704 19.5305L20.0301 18.4689L16.6421 15.0869L15.5824 16.1485Z"
+                  fill="#000000"
+                ></path>
+              </svg>
+              <button class="search-btn">Search</button>
+              <div id="modal" class="modal">
+                <div class="modal-content">
+                  <div class="input-area">
+                    <span class="close-btn">&times;</span>
+                    <input
+                      type="text"
+                      placeholder="Type to search..."
+                      class="input-value"
+                    />
+                  </div>
+                  <div class="results-container"></div>
+                </div>
+              </div>
+            </div>
+            <div class="filter-div">
+              <svg
+                width="25px"
+                height="25px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="filled"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                  fill="#000000"
+                ></path>
+              </svg>
+              <button class="filter-btn">Filter</button>
+              <div id="filtermodal" class="modal">
+                <div class="modal-content">
+                  <span id="close-btn" class="close-btn">&times;</span>
+                  <div class="input-area">
+                    <div><h3>Task Priority</h3></div>
+                    <select name="priority" id="priority">
+                      <option value="low-prority">Low</option>
+                      <option value="medium-prority">Medium</option>
+                      <option value="high-prority">High</option>
+                    </select>
+                  </div>
+                  <button class="apply-btn">Apply</button>
+                </div>
+              </div>
+            </div>
+            <div class="filter-div">
+              <svg
+                width="25px"
+                height="25px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="stroked"
+                  d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                  stroke="#000000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  class="stroked"
+                  d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                  stroke="#000000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <button class="sort-btn">Sort</button>
+              <div id="sortmodal" class="modal">
+                <div class="modal-content">
+                  <span id="sort-close" class="close-btn">&times;</span>
+                  <div class="input-area">
+                    <form>
+                      <h3>Sorting</h3>
+                      <p>Note : please Select one of them</p>
+                      <label>
+                        <input id="alphabet" type="checkbox" value="alphabet" />
+                        Alphabet
+                      </label>
+                      <label>
+                        <input type="checkbox" id="prority" value="priority" />
+                        Priority
+                      </label>
+                      <button type="button" class="apply-sort">Apply</button>
+                      <button type="button" id="sort-close">Close</button>
+                    </form>
+
+                    <!-- <label>
+                        <input
+                          id="date"
+                          type="checkbox"
+                          name="options"
+                          value="date"
+                        />
+                        Date </label
+                      ><br /> -->
+                    <!-- <label>
+                        <input
+                          id="priority"
+                          type="checkbox"
+                          name="options"
+                          value="priority"
+                        />
+                        Priority
+                      </label> -->
+                  </div>
+                  <!-- <button class="apply-sort">Apply</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="add-task-func">
+            <button>+ New</button>
+          </div>
+          <div id="funcModal" class="task-modal">
+            <div class="modal-content-add">
+              <span class="close-task">&times;</span>
+              <h2>Create New Task</h2>
+              <form id="Form">
+                <label for="TaskName">Task Name:</label>
+                <input
+                  type="text"
+                  id="taskName"
+                  name="TaskName"
+                  required
+                /><br />
+                <label for="Priority">Priority:</label>
+                <select id="priority" name="Priority">
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option></select
+                ><br />
+                <label for="Stage">Stage:</label>
+                <select id="stage" name="Stage">
+                  <option value="backlog-cl">Backlog</option>
+                  <option value="todo-cl">Todo</option>
+                  <option value="progress-cl">Progress</option>
+                  <option value="review-cl">Review</option>
+                  <option value="done-cl">Done</option></select
+                ><br />
+                <label for="StartDate">Start Date:</label>
+                <input
+                  type="date"
+                  id="startDate"
+                  name="StartDate"
+                  required
+                /><br />
+                <label for="EndDate">End Date:</label>
+                <input type="date" id="endDate" name="EndDate" required /><br />
+                <button type="submit">Add Task</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="task-area">
+          <div class="task-column">
+            <div id="backlog" class="backlog column-header">
+              <div class="column-header-details">
+                <h4>Backlog</h4>
+                <p class="counter">0</p>
+              </div>
+              <div class="column-header-filter">
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="24" height="24" fill="none" />
+                  <circle
+                    cx="7"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                    fill="#B0B0B0"
+                  ></path>
+                </svg>
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 122.88 122.88"
+                  style="enable-background: new 0 0 122.88 122.88"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st0 {
+                      fill: #d8453e;
+                    }
+                  </style>
+                  <g>
+                    <path
+                      class="st0"
+                      d="M61.44,0c8.31,0,16.24,1.66,23.49,4.66c7.53,3.12,14.3,7.68,19.96,13.34c5.66,5.66,10.22,12.42,13.34,19.96 c3,7.25,4.66,15.18,4.66,23.49c0,8.31-1.66,16.24-4.66,23.49c-3.12,7.53-7.68,14.3-13.34,19.96c-5.66,5.66-12.42,10.22-19.96,13.34 c-7.25,3-15.18,4.66-23.49,4.66s-16.24-1.66-23.49-4.66c-7.53-3.12-14.3-7.68-19.96-13.34C12.34,99.23,7.78,92.46,4.66,84.93 C1.66,77.68,0,69.75,0,61.44c0-8.31,1.66-16.24,4.66-23.49C7.78,30.42,12.34,23.65,18,18c5.66-5.66,12.42-10.22,19.96-13.34 C45.2,1.66,53.13,0,61.44,0L61.44,0z M49.13,16.62l38.18,83.42c0.93-0.63,1.84-1.28,2.72-1.97c1.46-1.14,2.89-2.41,4.26-3.78 c4.29-4.29,7.75-9.41,10.09-15.08c2.26-5.47,3.51-11.47,3.51-17.78c0-6.31-1.25-12.31-3.51-17.78c-2.35-5.67-5.8-10.79-10.09-15.08 c-4.29-4.29-9.41-7.75-15.08-10.09c-5.47-2.26-11.47-3.51-17.78-3.51c-2.54,0-5.01,0.2-7.38,0.58 C52.4,15.82,50.75,16.18,49.13,16.62L49.13,16.62z M73.75,106.26L35.57,22.83c-0.93,0.63-1.84,1.28-2.72,1.97 c-1.46,1.14-2.89,2.41-4.26,3.78c-4.29,4.29-7.75,9.41-10.09,15.08c-2.26,5.47-3.51,11.47-3.51,17.78c0,6.31,1.25,12.31,3.51,17.78 c2.35,5.67,5.8,10.79,10.09,15.08s9.41,7.75,15.08,10.09c5.47,2.26,11.47,3.51,17.78,3.51c2.54,0,5.01-0.2,7.38-0.58 C70.48,107.06,72.13,106.7,73.75,106.26L73.75,106.26z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="backlog-cl">
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="low-prority prority">Low</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div id="commentModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close-box close-btn">&times;</span>
+                      <h2>Write your comment</h2>
+                      <input
+                        type="text"
+                        id="inputField"
+                        placeholder="Enter text here"
+                      />
+                      <button id="cmAddBtn apply-btn" type="submit">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4>Customer Relations</h4>
+                  <p>July 19 > July 28</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment" style="display: none">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-task-btn">
+              <button>+ New</button>
+            </div>
+
+            <div id="taskModal" class="task-modal">
+              <div class="modal-content-add">
+                <span class="close-task">&times;</span>
+                <h2>Create New Task</h2>
+                <form id="Form">
+                  <label for="TaskName">Task Name:</label>
+                  <input
+                    type="text"
+                    id="taskName"
+                    name="TaskName"
+                    required
+                  /><br />
+                  <label for="Priority">Priority:</label>
+                  <select id="priority" name="Priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option></select
+                  ><br />
+                  <label for="StartDate">Start Date:</label>
+                  <input
+                    type="date"
+                    id="startDate"
+                    name="StartDate"
+                    required
+                  /><br />
+                  <label for="EndDate">End Date:</label>
+                  <input
+                    type="date"
+                    id="endDate"
+                    name="EndDate"
+                    required
+                  /><br />
+                  <button type="submit">Add Task</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="task-column">
+            <div id="todo" class="todo column-header">
+              <div class="column-header-details">
+                <h4>To do</h4>
+                <p class="counter">3</p>
+              </div>
+              <div class="column-header-filter">
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="24" height="24" fill="none" />
+                  <circle
+                    cx="7"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                    fill="#B0B0B0"
+                  ></path>
+                </svg>
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 122.88 122.88"
+                  style="enable-background: new 0 0 122.88 122.88"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st1 {
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #b0b0b0;
+                    }
+                  </style>
+                  <g>
+                    <path
+                      class="st1"
+                      d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44s-27.51,61.44-61.44,61.44S0,95.37,0,61.44S27.51,0,61.44,0L61.44,0z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="todo-cl">
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="medium-prority prority">Medium</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Planing and retrospective</h4>
+                  <p class="estimate">July 16 > July 22</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment" style="display: none">
+                    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="low-prority prority">Low</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Staff meeting</h4>
+                  <p class="estimate">July 18 > July 29</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="low-prority prority">Low</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Program overhead</h4>
+                  <p class="estimate">July 21 > July 21</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="low-prority prority">Low</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Redesign header</h4>
+                  <p class="estimate">July 21 > July 21</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-task-btn">
+              <button>+ New</button>
+            </div>
+          </div>
+          <div class="task-column">
+            <div id="progress" class="progress column-header">
+              <div class="column-header-details">
+                <h4>Progress</h4>
+                <p class="counter">2</p>
+              </div>
+              <div class="column-header-filter">
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="24" height="24" fill="none" />
+                  <circle
+                    cx="7"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                    fill="#B0B0B0"
+                  ></path>
+                </svg>
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 122.88 122.88"
+                  style="enable-background: new 0 0 122.88 122.88"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st2 {
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #fc5858;
+                    }
+                  </style>
+                  <g>
+                    <path
+                      class="st2"
+                      d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44s-27.51,61.44-61.44,61.44S0,95.37,0,61.44S27.51,0,61.44,0L61.44,0z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="progress-cl">
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="high-prority prority">High</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Bulding a responsive</h4>
+                  <p class="estimate">July 18 > July 19</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="medium-prority prority">Medium</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">General costumer support</h4>
+                  <p class="estimate">July 18 > July 20</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment" style="display: none">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-task-btn">
+              <button>+ New</button>
+            </div>
+          </div>
+          <div class="task-column">
+            <div id="reivew" class="reivew column-header">
+              <div class="column-header-details">
+                <h4>Waiting Reivew</h4>
+                <p class="counter">1</p>
+              </div>
+              <div class="column-header-filter">
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="24" height="24" fill="none" />
+                  <circle
+                    cx="7"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                    fill="#B0B0B0"
+                  ></path>
+                </svg>
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 122.88 122.88"
+                  style="enable-background: new 0 0 122.88 122.88"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st3 {
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #ffa319;
+                    }
+                  </style>
+                  <g>
+                    <path
+                      class="st3"
+                      d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44s-27.51,61.44-61.44,61.44S0,95.37,0,61.44S27.51,0,61.44,0L61.44,0z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="review-cl">
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="high-prority prority">High</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Logo Design</h4>
+                  <p class="estimate">July 15 > July 17</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>7</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-task-btn">
+              <button>+ New</button>
+            </div>
+          </div>
+          <div class="task-column">
+            <div id="done" class="done column-header">
+              <div class="column-header-details">
+                <h4>Done</h4>
+                <p class="counter">3</p>
+              </div>
+              <div class="column-header-filter">
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="24" height="24" fill="none" />
+                  <circle
+                    cx="7"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="12"
+                    r="0.5"
+                    stroke="#B0B0B0"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
+                    fill="#B0B0B0"
+                  ></path>
+                </svg>
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 18L16 6M16 6L20 10.125M16 6L12 10.125"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 6L8 18M8 18L12 13.875M8 18L4 13.875"
+                    stroke="#B0B0B0"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 122.88 122.88"
+                  style="enable-background: new 0 0 122.88 122.88"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st4 {
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      fill: #83bf6e;
+                    }
+                  </style>
+                  <g>
+                    <path
+                      class="st4"
+                      d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44s-27.51,61.44-61.44,61.44S0,95.37,0,61.44S27.51,0,61.44,0L61.44,0z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="done-cl">
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="medium-prority prority">Medium</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Animation intro for a database</h4>
+                  <p class="estimate">July 15 > July 16</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>4</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="high-prority prority">High</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Pastebin site</h4>
+                  <p class="estimate">July 15 > July 16</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>12</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="task-box-prority">
+                  <p class="high-prority prority">High</p>
+                  <div class="more-option" id="more-option">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="24" height="24" fill="none" />
+                      <circle
+                        cx="12"
+                        cy="7"
+                        r="0.5"
+                        transform="rotate(90 12 7)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="0.5"
+                        transform="rotate(90 12 12)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="17"
+                        r="0.5"
+                        transform="rotate(90 12 17)"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                      <ul class="items">
+                        <li>New Comment</li>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="task-box-details">
+                  <h4 class="title">Create a crypto lite paper</h4>
+                  <p class="estimate">July 16 > July 18</p>
+                </div>
+                <div class="task-box-comment">
+                  <div class="profile">
+                    <img src="img/01.jpg" alt="" />
+                    <img src="img/02.jpg" alt="" />
+                    <img src="img/03.jpg" alt="" />
+                  </div>
+                  <div class="comment">
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>comment-forum-solid</title>
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                          <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="icons_Q2" data-name="icons Q2">
+                          <path
+                            d="M31.9,6H4.1A2,2,0,0,0,2,8V36a1,1,0,0,0,1,1,1.3,1.3,0,0,0,.8-.3L13,28H31.9A2,2,0,0,0,34,26V8a2,2,0,0,0-2.1-2Z"
+                          />
+                          <path
+                            d="M43.9,15H38V32H14v3a2,2,0,0,0,2.1,2H35l9.2,8.7a1.3,1.3,0,0,0,.8.3,1,1,0,0,0,1-1V17A2,2,0,0,0,43.9,15Z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <p>5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="add-task-btn">
+              <button>+ New</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- <script src="JS/darkmode.js"></script>
+    <script src="JS/sidebarToggle.js"></script>
+    <script src="JS/Drag&Drop.js"></script>
+    <script src="JS/searchBtn.js"></script>
+    <script src="JS/datefilter.js"></script>
+    <script src="JS/addbtncl.js"></script>
+    <script src="JS/addbtnfn.js"></script>
+    <script src="JS/counter.js"></script>
+    <script src="JS/filterbtn.js"></script>
+    <script src="JS/sortbtn.js"></script>
+    <script src="JS/morebtn.js"></script> -->
+  </body>
+</html>
